@@ -1,0 +1,19 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ShapeTest {
+	Shape shape=new Shape();
+	@Test
+	void testcompteSquareArea() {
+		assertEquals(576,shape.compteSquareArea(24));
+	}
+	void testcompteCircleArea() {
+		
+		assertEquals(78.5,shape.compteCircleArea(5),"Area of circle calculation is wrong");
+	}
+
+
+}

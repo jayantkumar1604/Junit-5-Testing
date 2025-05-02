@@ -1,0 +1,15 @@
+package com.telusko;
+
+import org.junit.jupiter.api.Test;
+import com.learning.dao.JavaCourse;
+import com.telusko.learning.PurchaseCourse;
+class TestPurchaseCourse {
+
+	@Test
+	void testproceedWithCourse() {
+		PurchaseCourse pc=new PurchaseCourse();
+		pc.proceedWithCourse(new JavaCourse());
+		
+	}
+
+} 

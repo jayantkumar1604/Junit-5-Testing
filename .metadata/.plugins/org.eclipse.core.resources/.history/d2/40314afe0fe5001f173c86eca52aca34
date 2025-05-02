@@ -1,0 +1,9 @@
+package com.telusko.learning;
+
+public class Shape
+{
+	public double compteSquareArea(double length)
+	{
+		return 0;
+	}
+}

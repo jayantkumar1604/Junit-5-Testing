@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	assertEquals("avaJ",reverse.reverseString("Java"));
+}
+

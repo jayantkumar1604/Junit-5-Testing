@@ -1,0 +1,15 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ShapeTest {
+
+	@Test
+	void testcompteSquareArea() {
+		Shape shape=new Shape();
+		assertEquals(576,shape.compteSquareArea(24));
+	}
+
+}

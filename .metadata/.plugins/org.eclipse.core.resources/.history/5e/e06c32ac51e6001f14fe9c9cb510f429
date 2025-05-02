@@ -1,0 +1,43 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+
+class TestBeforeAfter {
+	@BeforeAll
+	static void beforeAll() {
+		System.out.println("Before All Test");
+	}
+	
+	Shape shape;
+	@BeforeEach
+	void init() {
+		shape=new Shape();
+		System.out.println("Before Test");
+	}
+	@Test
+	void computeSquareArea()
+	{
+		
+		assertEquals(78.5,shape.computeCircleArea(5));
+		System.out.println("Actual Test Running");
+	}
+	@Test
+	void computeCircleArea()
+	{
+		
+		assertEquals(78.5,shape.computeCircleArea(5));
+		System.out.println("Actual Test Running");
+	}
+	@AfterEach
+	void destroy()
+	{
+		System.out.println("After Test clean up");
+	}
+
+}

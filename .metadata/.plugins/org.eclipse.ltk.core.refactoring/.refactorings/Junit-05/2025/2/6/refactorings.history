@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.telusko.learning&apos; to &apos;Junit-06maven/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Junit-05&apos;&#x0D;&#x0A;- Destination element: &apos;Junit-06maven/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Junit-05/src/com.telusko.learning&apos;" description="Copy package" destination="=Junit-06maven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;com.telusko.learning" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1738933612234" version="1.0"/>
+</session>

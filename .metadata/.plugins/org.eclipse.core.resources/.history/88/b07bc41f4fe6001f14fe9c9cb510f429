@@ -1,0 +1,23 @@
+package com.telusko.learning;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+class TestBeforeAfter {
+	@Test
+	void computeSquareArea()
+	{
+		Shape shape=new Shape();
+		assertEquals(78.5,shape.computeCircleArea(5));
+	}
+	@Test
+	void computeCircleArea()
+	{
+		Shape shape=new Shape();
+		assertEquals(78.5,shape.computeCircleArea(5));
+
+	}
+
+}
